@@ -30,10 +30,10 @@ export default function Home() {
           every Thursday for weekly co-working (and demos) in Singapore. The
           group is part of the{" "}
           <a
-            className="underline italic text-green-400"
-            href="https://hackagu.com"
+            className="underline italic text-blue-400"
+            href="https://hacka.network"
           >
-            Hackagu
+            Hacka
           </a>{" "}
           network with a growing community worldwide.
         </p>
