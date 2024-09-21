@@ -30,12 +30,12 @@ export default function Home() {
           every Thursday for weekly co-working (and demos) in Singapore. The
           group is part of the{" "}
           <a
-            className="underline italic text-blue-400"
+            className="underline italic text-blue-400 inline-block mr-2"
             href="https://hacka.network"
           >
-            Hacka
-          </a>{" "}
-          network with a growing community worldwide.
+            Hacka network
+          </a>
+          with a growing community worldwide.
         </p>
         <p className="my-3">
           If you code your own projects come and join us every Thursday from
@@ -61,12 +61,94 @@ export default function Home() {
           </li>
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
-        <a
-          className="my-6 block text-lg font-semibold text-red-500"
-          href="https://t.me/+ZfiSB4qrsFthMzc1"
-        >
-          Join telegram group
-        </a>
+        <p className="my-6">
+          Join the
+          <a
+            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            href="https://t.me/+ZfiSB4qrsFthMzc1"
+          >
+            Telegram
+          </a>
+          group for more info
+        </p>
+      </section>
+      <section className="overflow-hidden text-gray-700">
+        <h3 className="text-xl font-semibold mb-1 text-white text-center">
+          Meetups so far
+        </h3>
+        <div className="container px-5 mx-auto lg:pt-12 lg:px-24">
+          <div className="flex flex-wrap -m-1 md:-m-2">
+            <div className="flex flex-wrap w-full md:w-1/2">
+              <div className="w-full sm:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_1.webp"
+                />
+              </div>
+              <div className="w-full sm:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_2.webp"
+                />
+              </div>
+              <div className="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_3.webp"
+                />
+              </div>
+            </div>
+            <div className="flex flex-wrap w-full md:w-1/2">
+              <div className="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_4.webp"
+                />
+              </div>
+              <div className="w-full sm:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_5.webp"
+                />
+              </div>
+              <div className="w-full sm:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_6.webp"
+                />
+              </div>
+            </div>
+            <div className="flex flex-wrap w-full">
+              <div className="w-full sm:w-1/3 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_7.webp"
+                />
+              </div>
+              <div className="w-full sm:w-1/3 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_8.webp"
+                />
+              </div>
+              <div className="w-full sm:w-1/3 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_9.webp"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
