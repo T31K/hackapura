@@ -145,6 +145,20 @@ export default function Home() {
                   className="block object-cover object-center w-full h-full rounded-lg"
                   src="/meetups/meetup_9.webp"
                 />
+              </div>{" "}
+              <div className="w-full sm:w-1/3 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_11.webp"
+                />
+              </div>
+              <div className="w-full sm:w-2/3 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_10.webp"
+                />
               </div>
             </div>
           </div>
