@@ -71,7 +71,7 @@ export default function Home() {
           </a>
         </p>
         <p className="mt-3 mb-6">
-          {`Weekly meetup at Monk's Brew Club`}
+          {`Weekly meetup at`}
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
             href="https://g.co/kgs/W4Sood3"
