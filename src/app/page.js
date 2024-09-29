@@ -27,8 +27,8 @@ export default function Home() {
         <p>
           A community-run group of indie makers / coders / designers / hardware
           hackers who build their own independent apps/startups, meeting up
-          every Thursday for weekly co-working (and demos) in Singapore. The
-          group is part of the{" "}
+          every Thursday for weekly/monthly co-working (and demos) in Singapore.
+          The group is part of the{" "}
           <a
             className="underline italic text-blue-400 inline-block mr-2"
             href="https://hacka.network"
@@ -39,7 +39,7 @@ export default function Home() {
         </p>
         <p className="my-3">
           If you code your own projects come and join us every Thursday from
-          10am to co-work in the CBD area.
+          10am to co-work in the CBD area, or join our monthly meetups.
         </p>
         <p className="mb-4 text-lg font-semibold">The timings are:</p>
         <ul className="list-none list-inside">
@@ -61,15 +61,24 @@ export default function Home() {
           </li>
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
-        <p className="my-6">
-          Join the
+        <p className="mt-6">
+          Monthly meetup details on
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
             href="https://t.me/+ZfiSB4qrsFthMzc1"
           >
-            Telegram
+            Luma
           </a>
-          group for more info
+        </p>
+        <p className="mt-3 mb-6">
+          {`Weekly meetup at Monk's Brew Club`}
+          <a
+            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            href="https://g.co/kgs/W4Sood3"
+          >
+            {`Monk's Brew Club`}.
+          </a>
+          You will be invited to the Telegram group upon showing up.
         </p>
       </section>
       <section className="overflow-hidden text-gray-700">
