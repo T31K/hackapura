@@ -38,8 +38,8 @@ export default function Home() {
           with a growing community worldwide.
         </p>
         <p className="my-3">
-          If you code your own projects come and join us every Thursday from
-          10am to co-work in the CBD area, or join our monthly meetups.
+          If you code your own projects come and join us every Thursday from 9am
+          to co-work in the CBD area, or join our monthly meetups.
         </p>
         <p className="mb-4 text-lg font-semibold">The timings are:</p>
         <ul className="list-none list-inside">
