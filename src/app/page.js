@@ -14,8 +14,8 @@ export default function Home() {
       </a>
       <header>
         <div className="text-2xl mb-4 text-center">🙏🇸🇬🤓🤓🇸🇬🙏</div>
-        <h1 className="text-4xl text-center text-red-600 font-pressStart my-4">
-          HACKAPURA
+        <h1 className="text-4xl uppercase text-center text-red-600 font-pressStart my-4">
+            Hackapura
         </h1>
         <div className="text-2xl mb-4 text-center">🙏🇸🇬🤓🤓🇸🇬🙏</div>
         <div className="text-center mb-8">
@@ -65,7 +65,7 @@ export default function Home() {
           Monthly meetup details on
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
-            href="https://t.me/+ZfiSB4qrsFthMzc1"
+            href="https://lu.ma/calendar/cal-I1GxI7XBaBP1RDc"
           >
             Luma
           </a>
