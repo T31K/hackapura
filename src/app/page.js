@@ -61,16 +61,16 @@ export default function Home() {
           </li>
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
-        <p className="mt-6">
+        <p className="mt-6 line-through">
           Monthly meetup details on
           <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
-            href="https://t.me/+ZfiSB4qrsFthMzc1"
+            className="line-through inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            href="https://lu.ma/calendar/cal-I1GxI7XBaBP1RDc"
           >
             Luma
           </a>
         </p>
-        <p className="mt-3 mb-6">
+        <p className="mt-3 mb-6 ">
           {`Weekly meetup at`}
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
