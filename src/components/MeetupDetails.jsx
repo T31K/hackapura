@@ -30,11 +30,11 @@ function MeetupDetails() {
                 <div className="max-w-2xl mx-auto">
                   <div className="flex justify-center flex-col items-center">
                     <p className="text-gray-100 underline text-lg italic">
-                      Location:
+                      {`Location:`}
                     </p>
-                    <p className="text-stone-300 text-md">Monk's Brew Clubs</p>
+                    <p className="text-stone-300 text-md">{`Monk's Brew Clubs`}</p>
                     <p className="text-stone-300 text-md mb-3">
-                      57 East Coast Rd, Singapore 428773
+                      {`57 East Coast Rd, Singapore 428773`}
                     </p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
@@ -55,18 +55,16 @@ function MeetupDetails() {
                   </div>
                   <div className="flex justify-center flex-col items-center mt-12 mb-24">
                     <p className="text-gray-100 underline text-lg italic">
-                      How to get there:
+                      {`How to get there:`}
                     </p>{" "}
                     <p className="text-stone-300 text-md">
-                      {" "}
-                      MRT Station: Marine Parade
+                      {`MRT Station: Marine Parade`}
                       <span className="inline-block ml-1 px-4 py-.5 bg-yellow-950 text-white rounded-full !font-sans font-bold">
                         TE26
                       </span>
                     </p>
                     <p className="text-stone-300 text-md mt-1">
-                      {" "}
-                      Bus Station: Opp Roxy Square
+                      {`Bus Station: Opp Roxy Square`}
                       <span className="inline-block ml-1 px-4 py-.5 bg-teal-950 text-white rounded-full !font-sans font-bold">
                         92111
                       </span>
@@ -77,10 +75,10 @@ function MeetupDetails() {
                       How to get access:
                     </p>{" "}
                     <p className="text-stone-300 text-md max-w-md text-center mb-2">
-                      {" "}
+                      {`
                       Show your Telegram app with the Hackapura group joined &
                       you'll be given a 10% discount for the day pass (free
-                      coffee included)
+                      coffee included)`}
                     </p>
                     <Image
                       src="/location/counter.jpg"
