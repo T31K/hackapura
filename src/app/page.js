@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import MeetupDetails from "@/components/MeetupDetails";
 export default function Home() {
   return (
     <main className=" flex min-h-screen flex-col items-center gap-y-6 py-24 px-16 bg-black text-white relative">
@@ -61,25 +61,19 @@ export default function Home() {
           </li>
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
-        <p className="mt-6 line-through">
-          Monthly meetup details on
-          <a
-            className="line-through inline-block mx-2 underline italic text-lg font-semibold text-red-500"
-            href="https://lu.ma/calendar/cal-I1GxI7XBaBP1RDc"
-          >
-            Luma
-          </a>
-        </p>
-        <p className="mt-3 mb-6 ">
+        <p className="my-6">
           {`Weekly meetup at`}
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
             href="https://g.co/kgs/W4Sood3"
           >
-            {`Monk's Brew Club`}.
+            {`Monk's Brew Club`}
           </a>
-          You will be invited to the Telegram group upon showing up.
         </p>
+        <div className="flex">
+          <p>Meetup details</p>
+          <MeetupDetails />
+        </div>
       </section>
       <section className="overflow-hidden text-gray-700">
         <h3 className="text-xl font-semibold mb-1 text-white text-center">
