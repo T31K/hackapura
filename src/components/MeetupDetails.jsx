@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Drawer } from "vaul";
 
 function MeetupDetails() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <Drawer.Root open={isOpen} onClose={() => setIsOpen(false)}>
       <Drawer.Trigger
@@ -58,13 +58,13 @@ function MeetupDetails() {
                       {`How to get there:`}
                     </p>{" "}
                     <p className="text-stone-300 text-md">
-                      {`MRT Station: Marine Parade`}
+                      {`MRT: Marine Parade`}
                       <span className="inline-block ml-1 px-4 py-.5 bg-yellow-950 text-white rounded-full !font-sans font-bold">
                         TE26
                       </span>
                     </p>
                     <p className="text-stone-300 text-md mt-1">
-                      {`Bus Station: Opp Roxy Square`}
+                      {`Bus: Opp Roxy Square`}
                       <span className="inline-block ml-1 px-4 py-.5 bg-teal-950 text-white rounded-full !font-sans font-bold">
                         92111
                       </span>
