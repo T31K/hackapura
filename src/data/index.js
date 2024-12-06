@@ -16,11 +16,11 @@ export const faq = [
     ],
   },
   {
-    question: "Can I pitch my product here?",
+    question: "Can I pitch my product to investors?",
     answer: [
-      "Nope, this isn’t the place for sales pitches.",
-      "Hackapura is about building, not selling.",
-      "Focus on your work first; socialize later.",
+      "Nope, you cannot pitch your product to investors here.",
+      "However, you are welcome to demo your product.",
+      "This is a great opportunity to receive feedback.",
     ],
   },
   {
