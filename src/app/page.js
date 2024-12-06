@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
         <div className="text-2xl mb-4 text-center">🙏🇸🇬🤓🤓🇸🇬🙏</div>
         <div className="text-center mb-8">
-          <p>EST. 2024</p>
+          <p>EST. 2023</p>
           <p>Singapore, Singapore</p>
         </div>
       </header>
