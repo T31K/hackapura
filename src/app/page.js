@@ -184,6 +184,23 @@ export default function Home() {
           <Faq />
         </div>
       </section>
+      <footer className="flex min-h-screen flex-col items-center gap-y-6 py-24 bg-black text-white relative">
+        <h2 className="text-2xl">Links</h2>
+        <div className="grid grid-cols-4 gap-y-3 gap-x-5 !text-gray-600">
+          <a href="https://t31k.com/">T31K</a>
+          <a href="https://ourbabyai.com">Our Baby AI</a>
+          <a href="https://getharmonize.app">Harmonize</a>
+          <a href="https://calorieasy.app">Calorieasy</a>
+          <a href="https://taroternity.com">Taroternity</a>
+          <a href="https://listskit.com">Lists Kit</a>
+          <a href="https://hackalumpur.com">Hacka Lumpur</a>
+          <a href="https://clemanteemusic.com">Clemantee Music</a>
+          <a href="https://fixitjerry.com">Fix It Jerry</a>
+          <a href="https://mirabelledecoupage.com">Mirabelle Decoupage</a>
+          <a href="https://earthinterior.sg">Earth Interior Design</a>
+          <a href="https://dokeyai.com/">DokeyAI</a>
+        </div>
+      </footer>
     </main>
   );
 }
