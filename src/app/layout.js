@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { Press_Start_2P } from "next/font/google";
 import { Source_Code_Pro } from "next/font/google";
+import Script from "next/script";
 
 const pressStart = Press_Start_2P({
   subsets: ["latin"],
@@ -29,6 +30,11 @@ export default function RootLayout({ children }) {
         className={`${pressStart.variable} ${sourceCodePro.variable} antialiased`}
       >
         {children}
+        <Script
+          src="https://umami.t31k.cloud/script.js"
+          data-website-id="6a3c11d8-2508-41bd-9bb5-28396e7f136a"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
