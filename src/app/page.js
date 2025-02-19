@@ -64,7 +64,7 @@ export default function Home() {
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
         <p className="my-6">
-          {`Weekly meetup at`}
+          <span className="line-through">{`Weekly`}</span> {`Monthly meetup at`}
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
             href="https://g.co/kgs/W4Sood3"
@@ -72,8 +72,9 @@ export default function Home() {
             {`Monk's Brew Club`}
           </a>
         </p>
+        <p className="my-6">Next meetup: {`20th Feb 2025 @ 10am`}</p>
         <div className="flex">
-          <p>Meetup details</p>
+          <p>Location details</p>
           <MeetupDetails />
         </div>
       </section>
