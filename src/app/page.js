@@ -29,8 +29,8 @@ export default function Home() {
         <p>
           A community-run group of indie makers / coders / designers / hardware
           hackers who build their own independent apps/startups, meeting up
-          every Thursday for weekly/monthly co-working (and demos) in Singapore.
-          The group is part of the{" "}
+          every now & then for co-working (and demos) in Singapore. The group is
+          part of the{" "}
           <a
             className="underline italic text-blue-400 inline-block mr-2"
             href="https://hacka.network"
@@ -40,8 +40,8 @@ export default function Home() {
           with a growing community worldwide.
         </p>
         <p className="my-3">
-          If you code your own projects come and join us every Thursday from 9am
-          to co-work in the CBD area, or join our monthly meetups.
+          If you code your own projects come and join us to co-work in the CBD
+          area, or join our monthly meetups.
         </p>
         <p className="mb-4 text-lg font-semibold">The timings are:</p>
         <ul className="list-none list-inside">
@@ -64,15 +64,24 @@ export default function Home() {
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
         <p className="my-6">
-          <span className="line-through">{`Weekly`}</span> {`Monthly meetup at`}
+          {`We usually meetup at`}
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
             href="https://g.co/kgs/W4Sood3"
+            target="_blank"
           >
             {`Monk's Brew Club`}
           </a>
+          or
+          <a
+            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            href="https://g.co/kgs/xYGCCNE"
+            target="_blank"
+          >
+            {`Singapore Land Tower`}
+          </a>
         </p>
-        <p className="my-6">Next meetup: {`20th Feb 2025 @ 10am`}</p>
+        <p className="my-6">Next meetup: {`TBA`}</p>
         <div className="flex">
           <p>Location details</p>
           <MeetupDetails />
