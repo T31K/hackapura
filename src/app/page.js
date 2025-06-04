@@ -82,6 +82,16 @@ export default function Home() {
           </a>
         </p>
         <p className="my-6">Next meetup: {`TBA`}</p>
+        <p className="my-6">
+          Join our Telegram group and suggest a meetup
+          <a
+            className="inline-block mx-1 underline italic text-lg font-semibold text-red-500"
+            href="https://t.me/+skyuk9q2DSU5OWFl"
+            target="_blank"
+          >
+            {`here`}
+          </a>
+        </p>
         <div className="flex">
           <p>Location details</p>
           <MeetupDetails />

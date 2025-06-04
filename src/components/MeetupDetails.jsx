@@ -10,7 +10,7 @@ function MeetupDetails() {
     <Drawer.Root open={isOpen} onClose={() => setIsOpen(false)}>
       <Drawer.Trigger
         onClick={() => setIsOpen(!isOpen)}
-        className="ml-2 text-red-500 italic underline"
+        className="ml-1 text-red-500 italic underline"
       >
         here
       </Drawer.Trigger>
