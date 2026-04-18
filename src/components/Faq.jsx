@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { faq } from "@/data";
 import { IconChevronDown } from "@tabler/icons-react";
 
@@ -34,10 +34,10 @@ const FaqItem = ({ index, question, answer, activeIndex, setActiveIndex }) => {
       >
         <div className="p-3 text-stone-400">
           {answer.map((text, idx) => (
-            <>
-              <p key={idx}>{text}</p>
+            <React.Fragment key={idx}>
+              <p>{text}</p>
               <br />
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>

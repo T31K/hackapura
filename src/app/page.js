@@ -28,11 +28,11 @@ export default function Home() {
       <section className="max-w-3xl mb-8 pt-8">
         <p>
           A community-run group of indie makers / coders / designers / hardware
-          hackers who build their own independent apps/startups, meeting up
-          every now & then for co-working (and demos) in Singapore. The group is
-          part of the{" "}
+          hackers who build their own independent apps/startups, meeting up on
+          Thursdays for co-working (and demos) in Singapore. The group is part
+          of the{" "}
           <a
-            className="underline italic text-blue-400 inline-block mr-2"
+            className="underline text-blue-400 inline-block mr-2"
             href="https://hacka.network"
           >
             Hacka network
@@ -40,66 +40,52 @@ export default function Home() {
           with a growing community worldwide.
         </p>
         <p className="my-3">
-          If you code your own projects come and join us to co-work in the CBD
-          area, or join our monthly meetups.
+          If you code your own projects come and join us to co-work in the city.
         </p>
-        <p className="mb-4 text-lg font-semibold">The timings are:</p>
+        <p className="mb-4 font-semibold">The timings are:</p>
         <ul className="list-none list-inside">
           <li>
-            10:30am – Intros{" "}
+            10am – Intros{" "}
             <span className="text-gray-400">
               {`(self intro + what you're working on)`}
             </span>
           </li>
           <li>
-            1:30pm – Order lunch and eat together{" "}
+            1pm – Order lunch and eat together{" "}
             <span className="text-gray-400">(optional)</span>
           </li>
           <li>
-            4:30pm – Demos{" "}
+            4pm – Demos{" "}
             <span className="text-gray-400">
               (share what you made today, or just watch)
             </span>
           </li>
-          <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
+          <li>5pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
         <p className="my-6">
-          {`We usually meetup at`}
+          For updates and discussion:{" "}
           <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
-            href="https://g.co/kgs/W4Sood3"
-            target="_blank"
-          >
-            {`Monk's Brew Club`}
-          </a>
-          or
-          <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
-            href="https://g.co/kgs/xYGCCNE"
-            target="_blank"
-          >
-            {`Singapore Land Tower`}
-          </a>
-        </p>
-        <p className="my-6">Next meetup: {`TBA`}</p>
-        <p className="my-6">
-          Join our Telegram group and suggest a meetup
-          <a
-            className="inline-block mx-1 underline italic text-lg font-semibold text-red-500"
+            className="inline-block underline font-semibold text-red-500"
             href="https://t.me/+skyuk9q2DSU5OWFl"
             target="_blank"
           >
-            {`here`}
+            {`join our Telegram group `}
           </a>
         </p>
-        <div className="flex">
-          <p>Location details</p>
-          <MeetupDetails />
-        </div>
+        <p className="my-6">
+          For the next meetup and location details:{" "}
+          <a
+            className="inline-block underline font-semibold text-red-500"
+            href="https://luma.com/hackapura"
+            target="_blank"
+          >
+            {`register here`}
+          </a>
+        </p>
       </section>
       <section className="overflow-hidden text-gray-700">
         <h3 className="text-xl font-semibold mb-4 text-white text-center">
-          Meetups so far
+          Previous meetups
         </h3>
         <div className="container mx-auto">
           <div className="flex flex-wrap -m-1 md:-m-2">
