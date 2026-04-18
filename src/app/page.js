@@ -28,9 +28,9 @@ export default function Home() {
       <section className="max-w-3xl mb-8 pt-8">
         <p>
           A community-run group of indie makers / coders / designers / hardware
-          hackers who build their own independent apps/startups, meeting up
-          every now & then for co-working (and demos) in Singapore. The group is
-          part of the{" "}
+          hackers who build their own independent apps/startups, meeting up on
+          Thursdays for co-working (and demos) in Singapore. The group is part
+          of the{" "}
           <a
             className="underline text-blue-400 inline-block mr-2"
             href="https://hacka.network"
