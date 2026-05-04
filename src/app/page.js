@@ -27,7 +27,7 @@ export default function Home() {
       </header>
       <section className="max-w-3xl mb-8 pt-8">
         <p>
-          A community-run group of indie makers / coders / designers / hardware
+          A community-run group of indie hackers / coders / designers / hardware
           hackers who build their own independent apps/startups, meeting up on
           Thursdays for co-working (and demos) in Singapore. The group is part
           of the{" "}

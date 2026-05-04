@@ -1,0 +1,23 @@
+# Hackapura
+
+> Hackapura is a community-run indie hacker meetup in Singapore for makers, coders, designers, and hardware hackers building their own independent apps and startups. The group meets every Thursday for co-working and demos, and is part of the global Hacka network.
+
+## About
+
+- Location: Singapore
+- Established: 2023
+- Format: Weekly in-person co-working and demo meetup
+- Schedule: Every Thursday (10am intros, then co-working through the day, with demos in the late afternoon)
+- Audience: Indie hackers, solo founders, designers, and hardware hackers shipping their own projects
+- Part of: [Hacka network](https://hacka.network) — a worldwide community of indie hacker meetups
+
+## Links
+
+- [Homepage](https://hackapura.com): Overview, schedule, and FAQ
+- [RSVP / Events](https://luma.com/hackapura): Upcoming meetups on Luma
+- [GitHub](https://github.com/T31K/hackapura): Source for this site
+- [Hacka network](https://hacka.network): Sister communities worldwide
+
+## Who should attend
+
+People who code, design, or build their own products and want to co-work alongside other independent makers in Singapore. Not for agencies, recruiters, or people pitching services.
